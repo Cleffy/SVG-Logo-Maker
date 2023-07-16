@@ -1,9 +1,33 @@
 {
+  "type": "module",
   "dependencies": {
     "inquirer": "^9.2.8",
     "jest": "^29.6.1"
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "name": "svg-logo-maker",
+  "description": "Creates a Logo in .svg format based on a color and a shape.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cleffy/SVG-Logo-Maker.git"
+  },
+  "keywords": [
+    "SVG"
+  ],
+  "author": "Kevin Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cleffy/SVG-Logo-Maker/issues"
+  },
+  "homepage": "https://github.com/Cleffy/SVG-Logo-Maker#readme"
 }
