@@ -27,8 +27,5 @@
   "bugs": {
     "url": "https://github.com/Cleffy/SVG-Logo-Maker/issues"
   },
-  "homepage": "https://github.com/Cleffy/SVG-Logo-Maker#readme",
-  "devDependencies": {
-    "jest": "^29.6.1"
-  }
+  "homepage": "https://github.com/Cleffy/SVG-Logo-Maker#readme"
 }
