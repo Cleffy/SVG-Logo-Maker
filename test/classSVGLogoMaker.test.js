@@ -11,12 +11,11 @@ describe('SVGLogoMaker', () => {
         inquirer.prompt = jest.fn().mockResolvedValue({ initials: 'ABC'});
         await svgLogoMaker.getInitials();
         expect(svgLogoMaker.initials).toBe('ABC');
-    });/*
+    });
+    /* Infinite loop
     it("Function should reiterate.", async () => {
         inquirer.prompt = jest.fn().mockResolvedValue({ initials: 'ABCD'});
-        await svgLogoMaker.getInitials();
         expect(svgLogoMaker.getInitials()).toHaveBeenCalled();
-        inquirer.prompt = jest.fn().mockResolvedValue({ initials: 'ABC'});
     });
-*/
+    */
 });
