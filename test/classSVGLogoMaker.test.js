@@ -1,17 +1,15 @@
 
 import SVGLogoMaker from '../lib/classSVGLogoMaker.js';
-/*
-const inquirer = require('inquirer');
-
-jest.mock('inquirer');
+import inquirer from 'inquirer';
+import sinon from 'sinon';
 
 describe('SVGLogoMaker', () => {
     const svgLogoMaker = new SVGLogoMaker.SVGLogoMaker();
 
     it("Adds a 3 character initial to svgLogoMaker.", () => {
-        inquirer.prompt = jest.fn().mockResolvedValue({ initials: 'ABC' });
+        const inquirerSpy = sinon.spy();
+        await inquirer.prompt();
         expect(svgLogoMaker.initials).toBe('ABC');
     });
 
 });
-*/

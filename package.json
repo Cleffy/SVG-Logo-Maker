@@ -4,7 +4,7 @@
     "inquirer": "^9.2.8"
   },
   "scripts": {
-    "test": "jest"
+    "test": "mocha ./test/classSVGLogoMaker.test.js"
   },
   "name": "svg-logo-maker",
   "description": "Creates a Logo in .svg format based on a color and a shape.",
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/Cleffy/SVG-Logo-Maker/issues"
   },
-  "homepage": "https://github.com/Cleffy/SVG-Logo-Maker#readme"
+  "homepage": "https://github.com/Cleffy/SVG-Logo-Maker#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "sinon": "^15.2.0"
+  }
 }
