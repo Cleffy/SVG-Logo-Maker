@@ -1,4 +1,4 @@
-const SVGLogoMaker = require('./lib/classSVGLogoMaker');
+const SVGLogoMaker = require('./lib/svgLogoMaker');
 
 let svgLogo = new SVGLogoMaker.SVGLogoMaker();
 svgLogo.buildLogo();
