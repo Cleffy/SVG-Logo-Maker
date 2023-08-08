@@ -12,10 +12,10 @@
   ## <div id="Usage">Usage</div>
   
 <video width="960" height="540" controls>
-<source src="./assets/SVGLogoMaker.mp4" type="video/mp4">
+<source src="https://www.youtube.com/embed/ySujBkkqnp8" type="video/mp4">
 </video>  
   
-  [SVG Logo Maker Usage Video](./assets/SVGLogoMaker.mp4)
+  [SVG Logo Maker Usage Video](https://youtu.be/ySujBkkqnp8)
   - Using the terminal from the SVG Logo Maker root directory
   - Enter 'node index.js'
   - Answer each question
