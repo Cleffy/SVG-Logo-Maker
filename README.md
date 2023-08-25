@@ -11,11 +11,7 @@
   To install the SVG Logo Maker, clone the  GitHub repository.  
   ## <div id="Usage">Usage</div>
   
-<video width="960" height="540" controls>
-<source src="./assets/SVGLogoMaker.mp4" type="video/mp4">
-</video>  
-  
-  [SVG Logo Maker Usage Video](./assets/SVGLogoMaker.mp4)
+  [SVG Logo Maker Usage Video](https://www.youtube.com/watch?v=NF50w-B-VHg)
   - Using the terminal from the SVG Logo Maker root directory
   - Enter 'node index.js'
   - Answer each question
